@@ -28,3 +28,10 @@ stat.addEventListener('click',function(){
     menubar.classList.add("hide");
     welcome.classList.add("hide");
 })
+
+document.querySelectorAll('.vehicle').forEach((vehicle) => {
+  vehicle.addEventListener('click', function() {
+    const card = vehicle.querySelector('.card');
+    card.classList.toggle('flipped');
+  });
+});

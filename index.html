@@ -10,7 +10,7 @@
 <body>
     <header>
         <div class="header-row">
-            <i class="fa-solid fa-bars" id="menu"></i>
+            <i class="fa-solid fa-bars hide" id="menu"></i>
             <h1>ParkIT</h1>
         </div>
         <p>Your parking solution</p>
@@ -31,9 +31,33 @@
                 <p>Your one-stop solution for parking management.</p>
             </div>
             <div class="status">
-                <div class="bike vehicle">bike</div>
-                <div class="car vehicle">car</div>
-                <div class="truck vehicle">truck</div>
+                <div class="bike vehicle">
+                    <div class="card">
+                        <div class="card-face front">
+                            <i class="fa-solid fa-motorcycle"></i>
+                            <p>Bike</p>
+                        </div>
+                        <div class="card-face back">bike back</div>
+                    </div>
+                </div>
+                <div class="car vehicle">
+                    <div class="card">
+                        <div class="card-face front">
+                            <i class="fa-solid fa-car-side"></i>
+                            <p>Car</p>
+                        </div>
+                        <div class="card-face back">car back</div>
+                    </div>
+                </div>
+                <div class="truck vehicle">
+                    <div class="card">
+                        <div class="card-face front">
+                            <i class="fa-solid fa-truck-moving"></i>
+                            <p>Truck</p>
+                        </div>
+                        <div class="card-face back">truck back</div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
